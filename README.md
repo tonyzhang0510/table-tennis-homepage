@@ -24,7 +24,7 @@ No build step required. The site is a static front-end project.
 
 To run locally, open the project in VS Code and use the Live Server extension: right-click `index.html` and select "Open with Live Server."
 
-The site is deployed on GitHub Pages at https://github.com/tonyzhang0510/table-tennis-homepage.
+The site is deployed on GitHub Pages at https://tonyzhang0510.github.io/table-tennis-homepage/.
 
 ## Use of GenAI
 
