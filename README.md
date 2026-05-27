@@ -1,4 +1,4 @@
-# Table Tennis, Explained
+# Table Tennis
 
 An informational homepage about table tennis: rules, equipment, top players, and an interactive Paddle Builder.
 
@@ -24,13 +24,13 @@ No build step required. The site is a static front-end project.
 
 To run locally, open the project in VS Code and use the Live Server extension: right-click `index.html` and select "Open with Live Server."
 
-The site is deployed on GitHub Pages at [your deployed URL].
+The site is deployed on GitHub Pages at https://github.com/tonyzhang0510/table-tennis-homepage.
 
 ## Use of GenAI
 
 - **Tool:** Claude (Anthropic), Claude Opus 4.7
 - **Date:** May 2026
-- **Used for:** helping generate descriptions, writing the `players.html` page, and helping with Paddle Builder logic.
+- **Used for:** helping generate descriptions, writing the players.html page, and helping with Paddle Builder logic.
 - **Prompts:** "help generate the different combinations of blades and rubbers for the Paddle Builder"; "write the players page content"; "fix up the paddle descriptions."; "how can I display the different paddle combinations to the user"
 
 ## License
