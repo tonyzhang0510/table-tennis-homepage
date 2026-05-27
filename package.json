@@ -1,0 +1,28 @@
+{
+  "name": "table-tennis-homepage",
+  "version": "1.0.0",
+  "description": "An informational homepage about table tennis: rules, equipment, top players, and an interactive paddle builder.",
+  "type": "module",
+  "main": "js/main.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+    "lint": "eslint \"js/**/*.js\"",
+    "serve": "npx http-server -p 8080 -c-1"
+  },
+  "keywords": [
+    "table-tennis",
+    "homepage",
+    "vanilla-js",
+    "es6-modules"
+  ],
+  "author": "Tony Zhang",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.0.0"
+  }
+}

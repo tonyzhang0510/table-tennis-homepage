@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tony Zhang" />
+    <meta
+      name="description"
+      content="Short profiles of top table tennis players and a brief history of the sport. Content drafted with AI assistance."
+    />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Players | Table Tennis</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">
+          <span class="logo-mark" aria-hidden="true">●</span>
+          <span class="logo-text">Table Tennis</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="equipment.html">Equipment</a></li>
+            <li><a class="nav-link active" href="players.html">Players</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header container">
+        <h1 class="page-title">Players</h1>
+        <p class="page-intro">
+          Short profiles of notable players in the modern era, followed by a
+          brief history of the sport.
+        </p>
+      </section>
+
+      <section class="filter-bar container" aria-label="Player filters">
+        <span class="filter-label">Show:</span>
+        <button type="button" class="filter-btn active" data-filter="all">
+          All
+        </button>
+        <button type="button" class="filter-btn" data-filter="men">Men</button>
+        <button type="button" class="filter-btn" data-filter="women">
+          Women
+        </button>
+      </section>
+
+      <section class="player-grid container" id="player-grid">
+        <article class="player-card" data-category="men">
+          <h2 class="player-name">Ma Long</h2>
+          <p class="player-meta">China &middot; Right-handed shakehand</p>
+          <p class="player-bio">
+            Often called the greatest of all time. Olympic singles champion in
+            2016 and 2020, known for consistency and a complete game.
+          </p>
+        </article>
+
+        <article class="player-card" data-category="men">
+          <h2 class="player-name">Fan Zhendong</h2>
+          <p class="player-meta">China &middot; Right-handed shakehand</p>
+          <p class="player-bio">
+            Paris 2024 Olympic singles champion. Explosive backhand and quick
+            adjustments at the table.
+          </p>
+        </article>
+
+        <article class="player-card" data-category="men">
+          <h2 class="player-name">Timo Boll</h2>
+          <p class="player-meta">Germany &middot; Left-handed shakehand</p>
+          <p class="player-bio">
+            The face of European table tennis for two decades. Former world
+            number one with elegant touch.
+          </p>
+        </article>
+
+        <article class="player-card" data-category="women">
+          <h2 class="player-name">Sun Yingsha</h2>
+          <p class="player-meta">China &middot; Right-handed shakehand</p>
+          <p class="player-bio">
+            Paris 2024 Olympic singles champion. A quick-twitch attacker with an
+            excellent short game.
+          </p>
+        </article>
+
+        <article class="player-card" data-category="women">
+          <h2 class="player-name">Chen Meng</h2>
+          <p class="player-meta">China &middot; Right-handed shakehand</p>
+          <p class="player-bio">
+            Tokyo 2020 Olympic singles champion. Known for power, composure, and
+            an aggressive backhand.
+          </p>
+        </article>
+
+        <article class="player-card" data-category="women">
+          <h2 class="player-name">Mima Ito</h2>
+          <p class="player-meta">Japan &middot; Right-handed shakehand</p>
+          <p class="player-bio">
+            Uses short pips on her backhand to disrupt rhythm. One of the most
+            unorthodox top players in the world.
+          </p>
+        </article>
+      </section>
+
+      <section class="history container">
+        <h2 class="section-title">A Short History</h2>
+        <p>
+          Table tennis began in late nineteenth century England as an
+          after-dinner parlor game. The first commercial set was sold under the
+          name "ping-pong" in 1901.
+        </p>
+        <p>
+          The International Table Tennis Federation was founded in 1926. For
+          decades, European players dominated, until China invested heavily in
+          the sport in the 1960s and began producing generations of world-class
+          players.
+        </p>
+        <p>
+          Table tennis joined the Olympic program in 1988 and remains one of the
+          most-watched events of the Summer Games.
+        </p>
+      </section>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/player-filter.js"></script>
+  </body>
+</html>

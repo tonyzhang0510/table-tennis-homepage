@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tony Zhang" />
+    <meta
+      name="description"
+      content="An informational homepage about table tennis: rules, equipment, top players, and an interactive paddle builder."
+    />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Table Tennis, Explained</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">
+          <span class="logo-mark" aria-hidden="true">●</span>
+          <span class="logo-text">Table Tennis</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a class="nav-link active" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="equipment.html">Equipment</a></li>
+            <li><a class="nav-link" href="players.html">Players</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <h1 class="hero-title">Table Tennis</h1>
+          <p class="hero-tagline">
+            A quick introduction to one of the world's most popular sports.
+          </p>
+          <a class="btn btn-primary" href="equipment.html#builder"
+            >Try the Paddle Builder</a
+          >
+        </div>
+      </section>
+
+      <section class="quick-rules container">
+        <h2 class="section-title">The Basics</h2>
+        <div class="rules-grid">
+          <div class="rule">
+            <h3 class="rule-title">Scoring</h3>
+            <p>
+              Games are played to 11 points, win by 2. Matches are best of 5 or
+              best of 7.
+            </p>
+          </div>
+          <div class="rule">
+            <h3 class="rule-title">Serving</h3>
+            <p>
+              Players alternate serves every two points. The ball is tossed from
+              an open palm.
+            </p>
+          </div>
+          <div class="rule">
+            <h3 class="rule-title">The Rally</h3>
+            <p>
+              The ball must bounce once on each side. A player loses the point
+              if they can't return it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-cards container">
+        <h2 class="section-title">Explore</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3 class="card-title">Equipment</h3>
+            <p class="card-body">
+              How blades, rubbers, and balls shape the game.
+            </p>
+            <a class="card-link" href="equipment.html">See equipment &rarr;</a>
+          </article>
+          <article class="card">
+            <h3 class="card-title">Players</h3>
+            <p class="card-body">
+              Meet the athletes at the top of the sport today.
+            </p>
+            <a class="card-link" href="players.html">Meet them &rarr;</a>
+          </article>
+          <article class="card">
+            <h3 class="card-title">Paddle Builder</h3>
+            <p class="card-body">
+              Build a paddle from real components and see how it plays.
+            </p>
+            <a class="card-link" href="equipment.html#builder">Try it &rarr;</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

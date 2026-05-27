@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tony Zhang" />
+    <meta
+      name="description"
+      content="Learn about table tennis equipment: blades, rubbers, and balls. Try the interactive Paddle Builder."
+    />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Equipment | Table Tennis, Explained</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">
+          <span class="logo-mark" aria-hidden="true">●</span>
+          <span class="logo-text">Table Tennis</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li>
+              <a class="nav-link active" href="equipment.html">Equipment</a>
+            </li>
+            <li><a class="nav-link" href="players.html">Players</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header container">
+        <h1 class="page-title">Equipment</h1>
+        <p class="page-intro">
+          A paddle is a wooden blade with a sheet of rubber glued to each side. Each part 
+          shapes how the ball behaves — speed, spin, and control.
+        </p>
+      </section>
+
+      <section id="blades" class="equipment-section container">
+        <h2 class="section-title">Blades</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3 class="card-title">Defensive</h3>
+            <p class="card-body">Slow and flexible. Built for absorbing pace.</p>
+          </article>
+          <article class="card">
+            <h3 class="card-title">All-Round</h3>
+            <p class="card-body">
+              Balanced speed and control. A common starting point.
+            </p>
+          </article>
+          <article class="card">
+            <h3 class="card-title">Offensive</h3>
+            <p class="card-body">Fast and stiff. Made for aggressive looping.</p>
+          </article>
+          <article class="card">
+            <h3 class="card-title">Offensive+</h3>
+            <p class="card-body">
+              The fastest category. Demands precise technique.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="rubbers" class="equipment-section container">
+        <h2 class="section-title">Rubbers</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3 class="card-title">Control</h3>
+            <p class="card-body">Soft and forgiving. Easy to handle.</p>
+          </article>
+          <article class="card">
+            <h3 class="card-title">Spin</h3>
+            <p class="card-body">Tacky surface. Generates heavy spin.</p>
+          </article>
+          <article class="card">
+            <h3 class="card-title">Tensor</h3>
+            <p class="card-body">Pre-tensioned sponge for explosive speed.</p>
+          </article>
+          <article class="card">
+            <h3 class="card-title">Anti-spin</h3>
+            <p class="card-body">Neutralizes incoming spin. A defensive tool.</p>
+          </article>
+          <article class="card">
+            <h3 class="card-title">Long Pips</h3>
+            <p class="card-body">
+              Long pimples that reverse spin and disrupt rallies.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="builder" class="paddle-builder container">
+        <h2 class="section-title">Paddle Builder</h2>
+        <p class="section-intro">
+          Pick a blade and two rubbers to see what kind of paddle you've built.
+        </p>
+
+        <div class="builder-grid">
+          <div class="builder-controls">
+            <div class="control-group">
+              <label class="control-label" for="blade-select">Blade</label>
+              <select id="blade-select" class="builder-select">
+                <option value="defensive">Defensive</option>
+                <option value="allround" selected>All-Round</option>
+                <option value="offensive">Offensive</option>
+                <option value="offensiveplus">Offensive+</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="forehand-select"
+                >Forehand Rubber</label
+              >
+              <select id="forehand-select" class="builder-select">
+                <option value="control">Control</option>
+                <option value="spin" selected>Spin</option>
+                <option value="tensor">Tensor</option>
+                <option value="anti">Anti-spin</option>
+                <option value="longpips">Long Pips</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="backhand-select"
+                >Backhand Rubber</label
+              >
+              <select id="backhand-select" class="builder-select">
+                <option value="control" selected>Control</option>
+                <option value="spin">Spin</option>
+                <option value="tensor">Tensor</option>
+                <option value="anti">Anti-spin</option>
+                <option value="longpips">Long Pips</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="builder-result" class="builder-result" aria-live="polite">
+            <h3 class="result-name">All-Round Looper</h3>
+            <p class="result-summary">
+              Make a selection to see your paddle profile.
+            </p>
+            <ul class="result-traits"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/paddle-builder.js"></script>
+  </body>
+</html>
