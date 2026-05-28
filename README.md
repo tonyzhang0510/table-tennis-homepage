@@ -8,7 +8,7 @@ Tony Zhang
 
 ## Class
 
-CS5610 Web Development
+CS5610 Web Development: https://johnguerra.co/classes/webDevelopment_online_summer_2026/
 
 ## Project Objective
 
